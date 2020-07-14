@@ -13,6 +13,9 @@ do{
     lastName=prompt('Inserisci il tuo cognome');
 }while(!isNaN(lastName));
 
+// controllo sul cognome passato
+lastName = lastName.charAt(0).toUpperCase()+lastName.slice(1).toLowerCase();
+
 // aggiunta valore nell'array e controllo sul valore passato
 listLastName.push(lastName);
 
