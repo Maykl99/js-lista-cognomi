@@ -21,6 +21,7 @@ listLastName.push(lastName);
 
 // stampa array con ordine alfabetico e stampa la chiave del valore aggiunto dall'utente
 console.log(listLastName.sort());
-console.log(listLastName.indexOf(lastName));
+var posizione = listLastName.indexOf(lastName);
+console.log('La posizione umana è ', posizione + 1);
 
 
